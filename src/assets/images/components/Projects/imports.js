@@ -1,5 +1,5 @@
 // PROJECTS
-import protfolio from "../../projects/portfolio_abhi.png"
+import protfolio from "../../projects/Portfolio_abhi.png"
 import brandcurb from "../../projects/BrandCurb.png"
 import sundown from "../../projects/SundownStudio.png"
 import siliconWallet from "../../projects/silicon.png"
