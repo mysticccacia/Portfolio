@@ -63,7 +63,7 @@ const Contact = () => {
             social media handles below. Preferably LinkedIn.
           </p>
           <ul className="app__contact-container_contacts-links">
-            <a href="www.linkedin.com/in/abhishek-kushwaha-ab8908268" target="_blank">
+            <a href="https://www.linkedin.com/in/abhishek-kushwaha-ab8908268" target="_blank">
               <img src={LinkedIn} alt="LinkedIn" />
               
             </a>
