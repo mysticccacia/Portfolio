@@ -2,7 +2,7 @@
 import protfolio from "../../projects/Portfolio_abhi.png"
 import brandcurb from "../../projects/BrandCurb.png"
 import sundown from "../../projects/SundownStudio.png"
-import siliconWallet from "../../projects/silicon.png"
+import siliconWallet from "../../projects/Silicon.png"
 import twogood from "../../projects/TwoGood.png"
 
 // CERTICIFICATES
