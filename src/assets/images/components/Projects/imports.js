@@ -48,7 +48,7 @@ const ProjectDetails = [
 },
 {
   image: protfolio,
-  title: "Personal_Protfolio",
+  title: "Personal Portfolio",
   text: "This is my personal protfolio developed using MERN stack.",
   site: "https://jatin-bhati-protfolio.netlify.app",
   code: "https://portfolida.netlify.app/",
