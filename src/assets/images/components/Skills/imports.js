@@ -28,10 +28,10 @@ const skills = [
     image: cpp,
     text: "C++",
   },
-  // {
-  //   image: Java,
-  //   text: "JAVA",
-  // },
+  {
+    image: Java,
+    text: "JAVA",
+  },
   {
     image: Python,
     text: "Python",

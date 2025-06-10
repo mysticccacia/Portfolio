@@ -26,13 +26,20 @@ const Contact = () => {
     setError("");
 
     const templateParams = {
+      // to_email: "abhikushwaha235@gmail.com",
       from_name: formData.name,
       from_email: formData.email,
       message: formData.message,
     };
 
     emailjs
-      .send("service_8d9dl7h","template_0w1w4ag", templateParams, "tjnYQHVmh1Hscbkqw")
+      .send("service_fkzq0eo","template_q6s6hsm", {
+  ...templateParams,
+  headers: {
+    "Reply-To": `${formData.name} <${formData.email}>`,
+    "From": `${formData.name} <noreply@yourdomain.com>`
+  }
+}, "ZJDaOSU9WnGRl40Qr")
       .then(() => {
         setIsSent(true);
         setFormData({ name: "", email: "", message: "" });
