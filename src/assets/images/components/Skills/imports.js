@@ -21,13 +21,17 @@ import Java from "../../skills/java.png";
 import Python from "../../skills/python.png";
 import Express from "../../skills/EX.png";
 import node from "../../skills/nodejs.svg";
-
+import cpp from "../../skills/C++.png";
 
 const skills = [
   {
-    image: Java,
-    text: "JAVA",
+    image: cpp,
+    text: "C++",
   },
+  // {
+  //   image: Java,
+  //   text: "JAVA",
+  // },
   {
     image: Python,
     text: "Python",
