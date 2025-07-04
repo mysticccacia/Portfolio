@@ -4,6 +4,10 @@ import brandcurb from "../../projects/BrandCurb.png"
 import sundown from "../../projects/SundownStudio.png"
 import siliconWallet from "../../projects/Silicon.png"
 import twogood from "../../projects/TwoGood.png"
+import tvdb from "../../projects/TVDB.png"
+import refokus from "../../projects/Refokuss.png"
+import employees from "../../projects/Employees.png"
+import uchi from "../../projects/Uchi.png"
 
 // CERTICIFICATES
 import CSScertificate from "../../certificate/Data Science.png";
@@ -18,6 +22,41 @@ import internship from "../../certificate/SEIntern.png";
 export { CSScertificate,Java,Didital101,softSkill,dsa,internship};
 
 const ProjectDetails = [
+  {
+    image: tvdb,
+    title: "Movie|TV Site",
+    text: "TVDB is your ultimate destination to explore the world of movies, TV shows, and celebrities. Whether you're a casual viewer or a passionate film buff, TVDB lets you Search for any movie, TV series, or famous personality",
+    site: "https://movitbdb.netlify.app/",
+    code: "https://github.com/mysticccacia/TVDB.git",
+  },
+  {
+    image: uchi,
+    title: "UCHI DESIGN",
+    text: "Uchi Design is a creative web platform that blends elegant aesthetics with smooth animations to craft unforgettable digital experiences. Designed with a modern eye, Uchi Design focuses on clean layouts, bold typography, and interactive motion elements that captivate users from the first scroll.",
+    site: "https://uchidesign.netlify.app/",
+    code: "https://github.com/mysticccacia/UCHI-DESIGN.git",
+  },
+  {
+    image: employees,
+    title: "Employees Management System",
+    text: "Our Employee Management System is a modern web-based platform designed to streamline and simplify employee administration for organizations of all sizes. Built with a responsive interface and a focus on usability, the system allows admins to easily add, assign, and manage employees and tasks.",
+    site: "https://employeemanaging.netlify.app/",
+    code: "https://github.com/mysticccacia/Employee-Management-System.git",
+  },
+  {
+    image: refokus,
+    title: "Refokus Design",
+    text: "My Refokus-inspired website is a visually immersive experience built to showcase the power of interactive design, scroll-triggered animations, and dynamic transitions. ",
+    site: "https://refokusdesign.netlify.app/",
+    code: "https://github.com/mysticccacia/Refokus.git",
+  },
+  {
+  image: protfolio,
+  title: "Personal Portfolio",
+  text: "This is my personal protfolio developed using MERN stack.",
+  site: "https://jatin-bhati-protfolio.netlify.app",
+  code: "https://portfolida.netlify.app/",
+},
   {
     image: sundown,
     title: "Sundown Studio",
@@ -46,13 +85,7 @@ const ProjectDetails = [
     site: "https://flourishing-maamoul-e24dc6.netlify.app/",
     code: "https://github.com/mysticccacia/TwoGood",
 },
-{
-  image: protfolio,
-  title: "Personal Portfolio",
-  text: "This is my personal protfolio developed using MERN stack.",
-  site: "https://jatin-bhati-protfolio.netlify.app",
-  code: "https://portfolida.netlify.app/",
-},
+
 
 
 ];
