@@ -7,13 +7,14 @@ import ProjectDetails, {
   internship,
   Java,
   Didital101, 
+  DataAnalytics
 } 
 from "./imports";
 import "./Projects.scss";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
-  const certificates = [CSScertificate,Didital101, Java,softSkill,dsa,internship];
+  const certificates = [CSScertificate,Didital101, Java,softSkill,dsa,internship,DataAnalytics];
 
   return (
     <section
