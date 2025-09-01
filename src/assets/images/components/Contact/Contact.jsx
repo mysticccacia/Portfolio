@@ -29,7 +29,7 @@ const Contact = () => {
       // to_email: "abhikushwaha235@gmail.com",
       from_name: formData.name,
       from_email: formData.email,
-      message: formData.message,
+      message: formData.message + " from:" +formData.email,
     };
 
     emailjs
@@ -42,7 +42,7 @@ const Contact = () => {
 }, "ZJDaOSU9WnGRl40Qr")
       .then(() => {
         setIsSent(true);
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ name: "", email: "", message: ""  });
       })
       .catch(() => {
         setError("Failed to send message. Please try again.");
