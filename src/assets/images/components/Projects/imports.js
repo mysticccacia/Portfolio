@@ -17,10 +17,12 @@ import dsa from "../../certificate/SQL.png";
 import Didital101 from "../../certificate/CSS(basic).png";
 import internship from "../../certificate/SEIntern.png";
 import DataAnalytics from "../../certificate/DataScienceHP.png"
+import RinexCourse from "../../certificate/Rinex_Course.png"
+import RinexIntern from "../../certificate/Rinex_InternShip.png"
 
 
 
-export { CSScertificate,Java,Didital101,softSkill,dsa,internship,DataAnalytics};
+export { CSScertificate,Java,Didital101,softSkill,dsa,internship,DataAnalytics,RinexCourse,RinexIntern};
 
 const ProjectDetails = [
   {

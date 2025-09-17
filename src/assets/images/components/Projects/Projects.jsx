@@ -7,14 +7,16 @@ import ProjectDetails, {
   internship,
   Java,
   Didital101, 
-  DataAnalytics
+  DataAnalytics,
+  RinexCourse,
+  RinexIntern
 } 
 from "./imports";
 import "./Projects.scss";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
-  const certificates = [CSScertificate,Didital101, Java,softSkill,dsa,internship,DataAnalytics];
+  const certificates = [CSScertificate,Didital101, Java,softSkill,dsa,internship,DataAnalytics,RinexCourse,RinexIntern];
 
   return (
     <section
